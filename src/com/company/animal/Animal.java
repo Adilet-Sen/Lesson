@@ -6,10 +6,10 @@ public abstract class Animal {
     private String color;
     private int age;
     private static int count;
-    public int distRunLimit;
-    public int distJumpLimit;
-    public int distSwimLimit;
-    public String voice;
+    protected int distRunLimit;
+    protected int distJumpLimit;
+    protected int distSwimLimit;
+    protected String voice;
 
     public Animal(String type, String name, String color, int age, int distRunLimit, int distJumpLimit, int distSwimLimit, String voice) {
         this.type = type;
